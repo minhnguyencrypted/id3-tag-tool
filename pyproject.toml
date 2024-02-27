@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools==69.1.1"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "id3_tag_tool"
+authors = [
+	{ name="Minh Nguyen", email="minhnguyen1205@outlook.com" },
+]
+version = "0.1.0"
+description = "Python script to automatically write ID3 tags to audio files from the Internet"
+readme = "README.md"
+requires-python = ">=3.12.2"
+
